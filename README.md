@@ -11,7 +11,7 @@
 
 La screen inicial será en base a esta organización , con los colores más claros de la paleta de colores, y al mover el mouse se vera el efecto abajo señalado
 
-![pantalla1](/img/pantalla1.jpeg)
+![pantalla1](/img/pantalla1.jpg)
 ![efecto](/img/efecto.gif)
 
 el menu superior tendrá Skills, Proyectos, contacto y CV.
