@@ -1,15 +1,16 @@
 # Portafolio
 
-###Paleta de colores elegida
+##Paleta de colores elegida
 
 ![Paleta](/img/paleta.jpeg)
 
  #B6F7D2 #0E9A8E #FFFC4D #FE4040
 
 
-###Diseño
+##Diseño
 
 La screen inicial será en base a esta organización , con los colores más claros de la paleta de colores, y al mover el mouse se vera el efecto abajo señalado
+
 ![pantalla1](/img/pantalla1.jpeg)
 ![efecto](/img/efecto.gif)
 
