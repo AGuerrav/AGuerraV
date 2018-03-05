@@ -1,0 +1,5 @@
+  @import "assets/stylesheets/bootstrap";
+  @import "variables"; //debe utilizarse en ese orden
+  @import "mixin";
+  @import "bases";
+  //y luego ir a la consola y decirle la ruta desde donde extraer : hacia donde exportar $ sass --watch sass/main.scss:css/main.css

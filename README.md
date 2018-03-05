@@ -1,28 +1,27 @@
 # Portafolio
 
-##Paleta de colores elegida
+###Paleta de colores elegida
 
-![Paleta](/img/paleta.jpeg)
+![Paleta](/assets/img/paleta.jpeg)
 
- #000 #B6F7D2 #0E9A8E #FFFC4D #FE4040
+#000 #B6F7D2 #0E9A8E #FFFC4D #FE4040
 
 
-##Diseño
+###Diseño
 
-La screen inicial será en base la organizacion de la primera imagen, con los colores más claros de la paleta de colores, y al mover el mouse se vera el efecto abajo señalado
+La screen inicial será en base a esta organización , con los colores más claros de la paleta de colores, y al mover el mouse se vera el efecto abajo señalado
+![pantalla1](/assets/img/pantalla1.jpeg)
+![efecto](/assets/img/efecto.gif)
 
-![pantalla1](/img/pantalla1.jpg)
-![efecto](/img/efecto.gif)
-
-el menú superior tendrá Skills, Proyectos, Contacto y CV.
+el menu superior tendrá Skills, Proyectos, contacto y CV.
 la información acerca de mi se desplegará con un modal al hacer click en un botón en la pantalla principal en la esquina inferior derecha (obligando al usuario a mover el mouse sobre la pantalla y ver el efecto)
 
-**Modal que se despliega con la información**
-![modal](/img/modal_info_contacto.jpg)
+**Modal que se despliega con la informacion**
+![modal](/assets/img/modal_info_contacto.jpg)
 (existe la idea de que acá tambien se pueda descargar el CV)
 
 **Sección de contacto y proyectos**
 Aun estoy en la disyuntiva de si usar algo como la primera foto o la segunda.
 
-![contact](/img/contact.jpg)
-![contact](/img/proyectos.jpg)
+![contact](/assets/img/contact.jpg)
+![contact](/assets/img/proyectos.jpg)
