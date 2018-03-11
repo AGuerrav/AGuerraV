@@ -6,39 +6,74 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Aileen Guerra</title>
   <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <section class="intro">
-
-    <nav class="navbar nav navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand brand" href="#">Aileen Guerra</a>
+  <!--nav sidebar -->
+  <aside>
+    <nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
+      <div class="nav-side-menu">
+        <div class="brand" id="project-menu">Aileen Guerra</div>
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+        <div class="menu-list">
+          <ul id="menu-content" class="menu-content collapse out">
+            <li>
+              <a href="#">
+              <i class="fa fa-female fa-lg"></i> Sobre mi
+              </a>
+            </li>
+            <li data-toggle="collapse" data-target="#products" class="collapsed active">
+              <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements  <i class="fa fa-gift fa-lg btn pull-right" style="margin-top:5px"></i></a>
+            </li>
+            <ul class="sub-menu collapse" id="products">
+              <li class="active"><a href="#">CSS3 Animation</a></li>
+              <li><a href="#">General</a></li>
+              <li><a href="#">Buttons</a></li>
+              <li><a href="#">Tabs & Accordions</a></li>
+              <li><a href="#">Typography</a></li>
+              <li><a href="#">FontAwesome</a></li>
+              <li><a href="#">Slider</a></li>
+              <li><a href="#">Panels</a></li>
+              <li><a href="#">Widgets</a></li>
+              <li><a href="#">Bootstrap Model</a></li>
+            </ul>
+            <li data-toggle="collapse" data-target="#service" class="collapsed">
+              <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="service">
+              <li>New Service 1</li>
+              <li>New Service 2</li>
+              <li>New Service 3</li>
+            </ul>
+            <li data-toggle="collapse" data-target="#new" class="collapsed">
+              <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="new">
+              <li>New New 1</li>
+              <li>New New 2</li>
+              <li>New New 3</li>
+            </ul>
+            <li>
+              <a href="#">
+              <i class="fa fa-user fa-lg"></i> Profile
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="fa fa-users fa-lg"></i> Users
+              </a>
+            </li>
+          </ul>
         </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">contacto</a></li>
-          <li><a href="#">CV</a></li>
-
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+      </div>
+    </nav>
+  </aside>
+  <section class="intro ">
     <div class="intro">
       <div class=" inner">
         <div class="content">
@@ -54,95 +89,144 @@
         </div>
       </div>
     </div>
-    <!--  inicio modal about me-->
-    <div class="modal fade bs-example-modal-lg" id="aboutme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div id="" class="modal-dialog modal-lg">
-      <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"><span class="close" aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Acerca de mi </h4>
-          </div>
-          <div class="modal-body">
-              <div class="row">
-                  <div class="col-about col-xs-6	col-sm-6 col-md-6 col-lg-6">
-                      <div class="info-about">
-                        Hola, que agrado que estes visitando mi portafolio, te cuento un poco de mi:<br><br>
-                        Soy Desarrolladora Web Front-End y APM de profesión, lo cual resume muy bien que he hecho en toda mi vida; me encantan los computadores, el marketing y el área de la salud, aunque no puedo dejar de destacar mi pasión por los videojuegos.<br>Soy muy curiosa, me gusta leer, dar buenas ideas y solucionar problemas.
-                        <br>He sido preparada intensamente por Laboratoria para cumplir mis metas tanto laborales como personales, por lo que me siento lista y calificada para insertarme de manera concreta en el mercado laboral actual.<br>
-                        La experiencia me dió la capacidad para trabajar en equipo pero los estudios me han dado la herramienta tecnica para llevar a cabo este proceso y no fallar en el intento, siendo Agile la piedra angular que me permitirá integrarme de manera eficaz y colaborativa a mi próximo grupo de trabajo.
-                      </div>
-                  </div>
-                  <div class="col-about col-xs-6	col-sm-6 col-md-6 col-lg-6">
-                    <div class="row">
-                      <div class="col-xs-12	col-sm-12 col-md-12 col-lg-12">
-                        <img class="center-block photo img-circle img-thumbnail img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMAAQDuAAgAAQAAAAAAAA4FAAAAJDYzYTEyM2RmLTM3ODYtNDI2MC04ZmRlLWY1YjgwZjFlMDMyMA.bin" alt="">
-                      </div>
-
-                    </div>
-                    <div class="row row-icon ">
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-angularjs-plain-wordmark"></i>
-                      </div>
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-github-plain-wordmark"></i>
-
-                      </div>
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-bootstrap-plain-wordmark colored"></i>
-
-                      </div>
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                         <i class="icon-info devicon-css3-plain-wordmark"></i>
-
-                      </div>
-                    </div>
-                    <div class="row row-icon">
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-jquery-plain-wordmark"></i>
-                      </div>
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                         <i class="icon-info devicon-react-original-wordmark"></i>
-
-                      </div>
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-javascript-plain colored"></i>
-
-                      </div>
-                      <div class="col-xs-3	col-sm-3 col-md-3 col-lg-3">
-                         <i class="icon-info devicon-sass-original"></i>
-
-                      </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  </div>
-    <!--  final modal about me-->
-
   </section>
-  <section class="info-proyects">
+
+  <section class="info-proyects class-default ">
     <h2>Proyectos</h2>
-  </section>
+      <div class="container ">
+        <!--The main div for carousel-->
+        <div id="carousel-demo" class="carousel vertical slide" data-ride="carousel" data-interval="2000">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-demo" data-slide-to="1"></li>
+            <li data-target="#carousel-demo" data-slide-to="2"></li>
+            <li data-target="#carousel-demo" data-slide-to="3"></li>
+          </ol>
 
+          <!-- Sliding images statring here -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>Trello</h3>
+                  <p>Proyecto realizado con Html, Css y Javascript </p>
+                  <button type="button" name="button"><a href="www.google.cl">Demo</a></button>
+                  <button type="button" name="button"><a href="www.google.cl">Github</a></button>
+
+                </div>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>Trello</h3>
+                  <p>Proyecto realizado con Html, Css y Javascript </p>
+                </div>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>Trello</h3>
+                  <p>Proyecto realizado con Html, Css y Javascript </p>
+                </div>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>Trello</h3>
+                  <p>Proyecto realizado con Html, Css y Javascript </p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Next / Previous controls here -->
+          <a class="left carousel-control" href="#carousel-demo" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-up"></span></a>
+          <a class="right carousel-control" href="#carousel-demo" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-down"></span></a>
+
+          <div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="skills  ">
+    <h2>Skills</h2>
+  </section>
+  <section class=" class-default  ">
+    <div class="container about-me">
+      <div class="row border">
+        <div class="border-gold col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="border-gold-bot" >Sobre mi</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" border-gold-top col-about col-xs-12	col-sm-12 col-md-6 col-lg-6">
+            <div class="info-about">
+              <p>Hola, que agrado que estes visitando mi portafolio, te cuento un poco de mi:<br><br>
+              Soy Desarrolladora Web Front-End y APM de profesión, lo cual resume muy bien que he hecho en toda mi vida; me encantan los computadores, el marketing y el área de la salud, aunque no puedo dejar de destacar mi pasión por los videojuegos.<br>Soy muy curiosa, me gusta leer, dar buenas ideas y solucionar problemas.
+              <br>He sido preparada intensamente por Laboratoria para cumplir mis metas tanto laborales como personales, por lo que me siento lista y calificada para insertarme de manera concreta en el mercado laboral actual.<br>
+              La experiencia me dió la capacidad para trabajar en equipo pero los estudios me han dado la herramienta tecnica para llevar a cabo este proceso y no fallar en el intento, siendo Agile la piedra angular que me permitirá integrarme de manera eficaz y colaborativa a mi próximo grupo de trabajo.</p>
+
+            </div>
+        </div>
+        <div class="col-about col-md-6 col-lg-6">
+          <div class="row">
+            <div class=" col-md-12 col-lg-12">
+              <img class="center-block photo img-circle img-thumbnail img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMAAQDuAAgAAQAAAAAAAA4FAAAAJDYzYTEyM2RmLTM3ODYtNDI2MC04ZmRlLWY1YjgwZjFlMDMyMA.bin" alt="">
+            </div>
+          </div>
+          <div class="row butt-skill ">
+            <button class="icon-but col-md-5 col-lg-5">
+              <a class="" href="#"><i class="fas fa-book"></i>Revisa mis proyectos</a>
+            </button>
+            <button class="icon-but  col-md-5 col-lg-5">
+              <a class="" href="#"><i class="fab fa-earlybirds"></i>Revisa mis habilidades</a>
+            </button>
+          </div>
+        </div>
+        <!-- <div class="col-about col-xs-12	col-sm-12 ">
+          <div class="row">
+            <div class="col-xs-12	col-sm-12 ">
+              <img class="center-block photo img-circle img-thumbnail img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMAAQDuAAgAAQAAAAAAAA4FAAAAJDYzYTEyM2RmLTM3ODYtNDI2MC04ZmRlLWY1YjgwZjFlMDMyMA.bin" alt="">
+            </div>
+          </div>
+          <div class="row butt-skill ">
+            <button class="icon-but col-xs-5 col-sm-5 ">
+              <a class="" href="#"><i class="fas fa-book"></i>Revisa mis proyectos</a>
+            </button>
+            <button class="icon-but col-xs-5 col-sm-5 ">
+              <a class="" href="#"><i class="fab fa-earlybirds"></i>Revisa mis habilidades</a>
+            </button>
+          </div>
+        </div> -->
+
+      </div>
+
+    </div>
+
+</section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="./assets/js/app.js" type="text/javascript"></script>
-  <script src="./assets/js/jquery.ripples-min.js" type="text/javascript">
-
-  </script>
-  <!-- <script type="text/javascript" src='.\assets\sass\assets\javascripts\bootstrap.min.js'></script> -->
-  <script type="text/javascript">
-  /* $(document).ready(function(){
-    $('.intro').ripples({resolution:512,dropRadius:20, perturbance:0.04})
-    }); */
-
-
-
-  </script>
-
-
-
+  <script src="./assets/js/jquery.ripples-min.js" type="text/javascript"></script>
 </body>
 </html>
