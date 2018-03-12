@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Aileen Guerra</title>
-  <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Italianno&" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -18,54 +18,28 @@
   <aside>
     <nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
       <div class="nav-side-menu">
-        <div class="brand" id="project-menu">Aileen Guerra</div>
+        <div class="intro-menu brand" >Aileen Guerra</div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
         <div class="menu-list">
           <ul id="menu-content" class="menu-content collapse out">
-            <li>
+            <li class="me">
               <a href="#">
               <i class="fa fa-female fa-lg"></i> Sobre mi
               </a>
             </li>
-            <li data-toggle="collapse" data-target="#products" class="collapsed active">
-              <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements  <i class="fa fa-gift fa-lg btn pull-right" style="margin-top:5px"></i></a>
-            </li>
-            <ul class="sub-menu collapse" id="products">
-              <li class="active"><a href="#">CSS3 Animation</a></li>
-              <li><a href="#">General</a></li>
-              <li><a href="#">Buttons</a></li>
-              <li><a href="#">Tabs & Accordions</a></li>
-              <li><a href="#">Typography</a></li>
-              <li><a href="#">FontAwesome</a></li>
-              <li><a href="#">Slider</a></li>
-              <li><a href="#">Panels</a></li>
-              <li><a href="#">Widgets</a></li>
-              <li><a href="#">Bootstrap Model</a></li>
-            </ul>
-            <li data-toggle="collapse" data-target="#service" class="collapsed">
-              <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
-            </li>
-            <ul class="sub-menu collapse" id="service">
-              <li>New Service 1</li>
-              <li>New Service 2</li>
-              <li>New Service 3</li>
-            </ul>
-            <li data-toggle="collapse" data-target="#new" class="collapsed">
-              <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-            </li>
-            <ul class="sub-menu collapse" id="new">
-              <li>New New 1</li>
-              <li>New New 2</li>
-              <li>New New 3</li>
-            </ul>
-            <li>
+            <li class="proj">
               <a href="#">
-              <i class="fa fa-user fa-lg"></i> Profile
+              <i class="fas fa-book fa-lg"></i> Proyectos
               </a>
             </li>
-            <li>
+            <li class="skill-menu">
               <a href="#">
-              <i class="fa fa-users fa-lg"></i> Users
+              <i class="fab fa-earlybirds fa-lg"></i> Habilidades técnicas
+              </a>
+            </li>
+            <li class="cv-menu">
+              <a href="#">
+              <i class="far fa-file-alt fa-lg"></i> CV
               </a>
             </li>
           </ul>
@@ -79,10 +53,10 @@
         <div class="content">
           <div class="">
             <div class="row ">
-              <div class="col-xs-12	col-sm-12 col-md-12 col-lg-12">
-                <h1>Aileen Guerra</h1>
-                <h2>Front-End Developer</h2>
-                <button  class="button-about" data-toggle="modal" data-target="#aboutme" type="button" name="button">Acerca de mi</button>
+              <div class="back-deg col-xs-12	col-sm-12 col-md-12 col-lg-12">
+                <h1 class="font-effect-outline">Aileen Guerra</h1>
+                <h2 >Front-End Developer</h2>
+                <button  class="me button-about" data-toggle="modal" data-target="#aboutme" type="button" name="button">Acerca de mi</button>
               </div>
             </div>
           </div>
@@ -90,7 +64,6 @@
       </div>
     </div>
   </section>
-
   <section class="info-proyects class-default ">
     <h2>Proyectos</h2>
       <div class="container ">
@@ -123,35 +96,69 @@
             <div class="item ">
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                  <img src="assets\img\Proyectos\API-EMOTION.JPG" alt="emotion">
                 </div>
                 <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <h3>Trello</h3>
-                  <p>Proyecto realizado con Html, Css y Javascript </p>
+                  <h3>Emotion recognize</h3>
+                  <p>Proyecto realizado con Html, Css, Javascript consumiendo Face Api de Microsoft  </p>
                 </div>
+                <button type="button" name="button"><a href="www.google.cl">Demo</a></button>
+                <button type="button" name="button"><a href="www.google.cl">Github</a></button>
               </div>
             </div>
             <div class="item ">
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                  <img src="assets\img\Proyectos\cardify.gif" alt="cardify">
                 </div>
                 <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <h3>Trello</h3>
-                  <p>Proyecto realizado con Html, Css y Javascript </p>
+                  <h3>Cardify</h3>
+                  <p>Proyecto realizado con Html, Css, Javascript y jquery, donde creamos nuestra propia libreria </p>
                 </div>
+                <button type="button" name="button"><a href="www.google.cl">Demo</a></button>
+                <button type="button" name="button"><a href="www.google.cl">Github</a></button>
               </div>
             </div>
             <div class="item ">
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img src="assets\img\Proyectos\Trello.JPG" alt="trello">
+                  <img src="assets\img\Proyectos\pokedex.JPG" alt="trello">
                 </div>
                 <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <h3>Trello</h3>
-                  <p>Proyecto realizado con Html, Css y Javascript </p>
+                  <h3>Pokedex</h3>
+                  <p>Proyecto realizado con Html, Css y Javascript consumiendo API Pokeapi.co</p>
 
                 </div>
+                <button type="button" name="button"><a href="www.google.cl">Demo</a></button>
+                <button type="button" name="button"><a href="www.google.cl">Github</a></button>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets\img\Proyectos\LYFT1.JPG" alt="trello">
+                </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>Lyfk</h3>
+                  <p>Proyecto maquetado completo html y css</p>
+
+                </div>
+                <button type="button" name="button"><a href="www.google.cl">Demo</a></button>
+                <button type="button" name="button"><a href="www.google.cl">Github</a></button>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="assets\img\Proyectos\geo.JPG" alt="trello">
+                </div>
+                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>Geolocalizacion-Trayecto</h3>
+                  <p>Proyecto realizado con Html, Css y Javascript consumiendo API de geolocalizacion</p>
+
+                </div>
+                <button type="button" name="button"><a href="www.google.cl">Demo</a></button>
+                <button type="button" name="button"><a href="www.google.cl">Github</a></button>
               </div>
             </div>
 
@@ -168,10 +175,21 @@
         </div>
       </div>
   </section>
-  <section class="skills  ">
-    <h2>Skills</h2>
+  <section class="class-default skills  ">
+    <h2>Habilidades técnicas</h2>
   </section>
-  <section class=" class-default  ">
+  <section class="class-default cv">
+    <div class="container">
+      <div class="row" >
+        <div class="col-xs-12	col-sm-12 col-md-12 col-lg-12">
+          <h2>Curriculum Vitae</h2>
+          <embed type="" src="./assets/CV-DEV.pdf" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="about-me" class=" class-default ">
     <div class="container about-me">
       <div class="row border">
         <div class="border-gold col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -182,7 +200,7 @@
         <div class=" border-gold-top col-about col-xs-12	col-sm-12 col-md-6 col-lg-6">
             <div class="info-about">
               <p>Hola, que agrado que estes visitando mi portafolio, te cuento un poco de mi:<br><br>
-              Soy Desarrolladora Web Front-End y APM de profesión, lo cual resume muy bien que he hecho en toda mi vida; me encantan los computadores, el marketing y el área de la salud, aunque no puedo dejar de destacar mi pasión por los videojuegos.<br>Soy muy curiosa, me gusta leer, dar buenas ideas y solucionar problemas.
+              Soy Desarrolladora Web Front-End y APM de profesión, lo cual resume muy bien que he hecho en toda mi vida; me encantan los computadores, el marketing y el área de la salud, aunque no puedo dejar de destacar mi pasión por los videojuegos.<br>Soy muy curiosa, me gusta leer, dar buenas ideas y solucionar problemas de la gente, darle la vuelta a las cosas y verlas desde otra perspectiva.
               <br>He sido preparada intensamente por Laboratoria para cumplir mis metas tanto laborales como personales, por lo que me siento lista y calificada para insertarme de manera concreta en el mercado laboral actual.<br>
               La experiencia me dió la capacidad para trabajar en equipo pero los estudios me han dado la herramienta tecnica para llevar a cabo este proceso y no fallar en el intento, siendo Agile la piedra angular que me permitirá integrarme de manera eficaz y colaborativa a mi próximo grupo de trabajo.</p>
 
@@ -195,29 +213,14 @@
             </div>
           </div>
           <div class="row butt-skill ">
-            <button class="icon-but col-md-5 col-lg-5">
-              <a class="" href="#"><i class="fas fa-book"></i>Revisa mis proyectos</a>
+            <button class="proj icon-but col-md-5 col-lg-5">
+              <a class="" href="#"><i class="icon-rotate fas fa-book"></i>Revisa mis proyectos</a>
             </button>
-            <button class="icon-but  col-md-5 col-lg-5">
-              <a class="" href="#"><i class="fab fa-earlybirds"></i>Revisa mis habilidades</a>
+            <button class="icon-but skill-menu  col-md-5 col-lg-5">
+              <a class="" href="#"><i class="icon-rotate fab fa-earlybirds"></i>Revisa mis habilidades</a>
             </button>
           </div>
         </div>
-        <!-- <div class="col-about col-xs-12	col-sm-12 ">
-          <div class="row">
-            <div class="col-xs-12	col-sm-12 ">
-              <img class="center-block photo img-circle img-thumbnail img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMAAQDuAAgAAQAAAAAAAA4FAAAAJDYzYTEyM2RmLTM3ODYtNDI2MC04ZmRlLWY1YjgwZjFlMDMyMA.bin" alt="">
-            </div>
-          </div>
-          <div class="row butt-skill ">
-            <button class="icon-but col-xs-5 col-sm-5 ">
-              <a class="" href="#"><i class="fas fa-book"></i>Revisa mis proyectos</a>
-            </button>
-            <button class="icon-but col-xs-5 col-sm-5 ">
-              <a class="" href="#"><i class="fab fa-earlybirds"></i>Revisa mis habilidades</a>
-            </button>
-          </div>
-        </div> -->
 
       </div>
 
