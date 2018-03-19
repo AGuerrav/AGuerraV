@@ -185,7 +185,17 @@ img {
   .carousel.vertical .active.left   { top: -100%; }
 
 .gato{
+  padding-top: 10%;
 
+}
+#uno{
+    background-image: url(../img/Proyectos/trello.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.miau{
+  height: 50%;
 }
 .perro{
   height: 80vh;
