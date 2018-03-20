@@ -7,29 +7,29 @@
   <title>Aileen Guerra</title>
   <link href="https://fonts.googleapis.com/css?family=Cinzel|Italianno&" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-responsiveGallery.css">
 </head>
 <body>
   <!--nav sidebar -->
   <aside>
     <nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
       <div class="nav-side-menu">
-        <div class="intro-menu brand" >Aileen Guerra</div>
-        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+        <div class="intro-menu brand " >Aileen Guerra</div>
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content" aria-expanded="false"></i>
         <div class="menu-list">
-          <ul id="menu-content" class="menu-content collapse out">
-            <li class="me">
-            <a href="#">Sobre mi <i class="fa fa-female fa-lg pollo"></i></a>
+          <ul id="menu-content" aria-expanded="false" class="menu-content collapse out">
+            <li class="me ">
+            <a href="#">Sobre mi <i class="fa fa-female fa-lg "></i></a>
             </li>
-            <li class="proj"><a href="#"> Proyectos <i class="fas fa-book fa-lg pollo"></i></a>
+            <li class="proj "><a href="#"> Proyectos <i class="fas fa-book fa-lg "></i></a>
             </li>
-            <li class="skill-menu"><a href="#"> Habilidades técnicas <i class="fab fa-earlybirds fa-lg pollo"></i> </a>
+            <li class="skill-menu "><a href="#"> Habilidades técnicas <i class="fab fa-earlybirds fa-lg "></i> </a>
             </li>
-            <li class="cv-menu"><a href="#"> CV <i class="far fa-file-alt fa-lg pollo"></i> </a>
+            <li class="cv-menu "><a href="#"> CV <i class="far fa-file-alt fa-lg "></i> </a>
             </li>
           </ul>
         </div>
@@ -39,13 +39,12 @@
   <section class="intro ">
     <div class="intro">
       <div class=" inner">
-        <div class="content">
+        <div class="content about-me">
           <div class="">
             <div class="row ">
               <div class="back-deg col-xs-12	col-sm-12 col-md-12 col-lg-12">
                 <h1 class="font-effect-outline">Aileen Guerra</h1>
                 <h2 >Front-End Developer</h2>
-                <i class="fab fa-github-square"></i>
                 <button  class="me button-about" data-toggle="modal" data-target="#aboutme" type="button" name="button">Acerca de mi</button>
               </div>
             </div>
@@ -55,186 +54,135 @@
     </div>
   </section>
   <section class="info-proyects class-default ">
-    <!-- <h2>Proyectos</h2> -->
-      <div class="container  ">
-        <!--The main div for carousel-->
-        <div id="carousel-demo" class="perro carousel vertical slide" data-ride="carousel" data-interval="2000">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-demo" data-slide-to="1"></li>
-            <li data-target="#carousel-demo" data-slide-to="2"></li>
-            <li data-target="#carousel-demo" data-slide-to="3"></li>
-            <li data-target="#carousel-demo" data-slide-to="4"></li>
-            <li data-target="#carousel-demo" data-slide-to="5"></li>
-            <li data-target="#carousel-demo" data-slide-to="6"></li>
-          </ol>
-
-          <!-- Sliding images statring here -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="row gato ">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <!-- <div id="uno" class="">
-
-                  </div> -->
-                  <img class="img-responsive  " src="assets\img\Proyectos\Trello.JPG" alt="trello">
-                </div>
-                <div class=" col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                  <h3 class="border2">Trello</h3>
+    <div class="w-gallery about-me dos">
+      <div class="row border top">
+        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="" >Proyectos</h2>
+        </div>
+      </div>
+      <section id="responsiveGallery-container" class="responsiveGallery-container">
+       <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a>
+       <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
+        <ul class="responsiveGallery-wrapper ">
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\trello.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Trello</h3>
                   <p>Proyecto realizado con Html, Css y Javascript </p>
                   <button type="button" name="button"><a href="https://aguerrav.github.io/Trello/">Demo</a></button>
                   <button type="button" name="button"><a href="https://github.com/AGuerrav/Trello">Github</a></button>
-                </div>
-              </div>
-            </div>
-            <div class="item ">
-              <div class="row gato" >
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img class="img-responsive " src="assets\img\Proyectos\API-EMOTION.JPG" alt="emotion">
-                </div>
-                <div class="miau col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                  <h3 class="border2">Emotion recognize</h3>
-                  <p>Proyecto realizado con Html, Css, Javascript consumiendo Face Api de Microsoft  </p>
-                  <button type="button" name="button"><a href="https://aguerrav.github.io/SPA-RecognizeAPI/">Demo</a></button>
-                  <button type="button" name="button"><a href="https://github.com/AGuerrav/SPA-RecognizeAPI">Github</a></button>
-                </div>
 
-              </div>
             </div>
-            <div class="item ">
-              <div class="row gato">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img class="img-responsive " src="" alt="emotion">
-                </div>
-                <div class=" col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                  <h3 class="border2">Genesis</h3>
-                  <p>Proyecto realizado con Html, Css, Javascript y Jquery consumiendo Api OMDB y Youtube</p>
-                  <button type="button" name="button"><a href="https://aguerrav.github.io/SPA-RecognizeAPI/">Demo</a></button>
-                  <button type="button" name="button"><a href="https://github.com/AGuerrav/SPA-RecognizeAPI">Github</a></button>
-                </div>
-
-              </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\api-emotion.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Emotion-recognize</h3>
+              <p>Proyecto consumiendo Face Api de Microsoft </p>
+              <button type="button" name="button"><a href="https://aguerrav.github.io/SPA-RecognizeAPI/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/AGuerrav/SPA-RecognizeAPI">Github</a></button>
             </div>
-            <div class="item ">
-              <div class="row gato">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
-                  <img class="img-responsive " src="assets\img\Proyectos\cardify.gif" alt="cardify">
-                </div>
-                <div class=" col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                  <h3 class="border2">Cardify</h3>
-                  <p>Proyecto realizado con Html, Css, Javascript y jquery, donde creamos nuestra propia libreria </p>
-                  <button type="button" name="button"><a href="https://aguerrav.github.io/demo-cardify/">Demo</a></button>
-                  <button type="button" name="button"><a href="https://github.com/AGuerrav/cardify">Github</a></button>
-                </div>
-
-              </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\genesis.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Genesis</h3>
+              <p>Proyecto realizado con Javascript y Jquery consumiendo Api OMDB y Youtube</p>
+              <button type="button" name="button"><a href="https://valepv.github.io/Hackathon-MoviSquad/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/ValePV/Hackathon-MoviSquad">Github</a></button>
             </div>
-            <div class="item ">
-              <div class="row gato">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img class="img-responsive " src="assets\img\Proyectos\labCar.JPG" alt="trello">
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <h3 class="border2">Lab-Car</h3>
-                  <p>Proyecto maquetado con uso de Bootstrap</p>
-                  <button type="button" name="button"><a href="https://aguerrav.github.io/lab-car-boilerplate/">Demo</a></button>
-                  <button type="button" name="button"><a href="https://github.com/AGuerrav/lab-car-boilerplate">Github</a></button>
-                </div>
-
-              </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img id="cadi" src="assets\img\Proyectos\cardify.gif" height="320" width="320" alt="" class=" responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Cardify</h3>
+              <p>Creacion de libreria con Jquery </p>
+              <button type="button" name="button"><a href="https://aguerrav.github.io/demo-cardify/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/AGuerrav/cardify">Github</a></button>
             </div>
-            <div class="item ">
-              <div class="row gato">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img class="img-responsive " src="assets\img\Proyectos\geo.JPG" alt="trello">
-                </div>
-                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                  <h3 class="border2">Geolocalizacion-Trayecto</h3>
-                  <p>Proyecto de geolocalizacion realizado con Html, Css y Javascript consumiendo API Google Maps</p>
-                  <button type="button" name="button"><a href="https://aguerrav.github.io/easy-vreco/">Demo</a></button>
-                  <button type="button" name="button"><a href="https://github.com/AGuerrav/easy-vreco">Github</a></button>
-                </div>
-
-              </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\labcar.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Lab-Car</h3>
+              <p>Proyecto maquetado con uso de Bootstrap</p>
+              <button type="button" name="button"><a href="https://aguerrav.github.io/lab-car-boilerplate/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/AGuerrav/lab-car-boilerplate">Github</a></button>
             </div>
-            <div class="item ">
-              <div class="row gato">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <img class="img-responsive " src="assets\img\Proyectos\sass.JPG" alt="trello">
-                </div>
-                <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <h3 class="border2">Dobby-spa</h3>
-                  <p>Maquetado realizado con Sass</p>
-                  <button type="button" name="button"><a href="https://aguerrav.github.io/dobby-spa/">Demo</a></button>
-                  <button type="button" name="button"><a href="https://github.com/AGuerrav/dobby-spa">Github</a></button>
-                </div>
-              </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\geo.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Geolocalizacion-Trayecto</h3>
+              <p>Proyecto de geolocalizacion consumiendo API Google Maps</p>
+              <button type="button" name="button"><a href="https://aguerrav.github.io/easy-vreco/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/AGuerrav/easy-vreco">Github</a></button>
             </div>
-
-          </div>
-          <!-- Next / Previous controls here -->
-          <a class="left carousel-control" href="#carousel-demo" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-up"></span></a>
-          <a class="right carousel-control" href="#carousel-demo" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-down"></span></a>
-        </div>
-      </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\sass.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">Dobby-spa</h3>
+              <p>Maquetado realizado con Sass</p>
+              <button type="button" name="button"><a href="https://aguerrav.github.io/dobby-spa/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/AGuerrav/dobby-spa">Github</a></button>
+            </div>
+          </li>
+          <li class="responsiveGallery-item"> <a href="#" class="responsivGallery-link"><img src="assets\img\Proyectos\react.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+            <div class="w-responsivGallery-info">
+              <h3 class="border2">RamDog</h3>
+              <p>Proyecto Realizado con React y Redux</p>
+              <button type="button" name="button"><a href="https://aguerrav.github.io/Reto-React/">Demo</a></button>
+              <button type="button" name="button"><a href="https://github.com/AGuerrav/Reto-React">Github</a></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
   </section>
   <section class="class-default skills  ">
     <div class="container about-me">
       <div class="row border">
-        <div class="border-gold col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h2 class="border-gold-bot" >Habilidades Técnicas</h2>
+        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="" >Habilidades Técnicas</h2>
         </div>
       </div>
       <div class="row">
-        <div class=" border-gold-top col-about col-xs-12	col-sm-12 col-md-12 col-lg-12">
+        <div class=" col-about col-xs-12	col-sm-12 col-md-12 col-lg-12">
             <div class="info-about">
-                    <div id="icon-1" class="row row-icon ">
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-angularjs-plain-wordmark"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-github-plain-wordmark"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-bootstrap-plain-wordmark colored"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                         <i class="icon-info devicon-css3-plain-wordmark"></i>
-                      </div>
-                    </div>
-                    <div id="icon-2" class="row row-icon">
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <i class="icon-info devicon-jquery-plain-wordmark"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                         <i class="icon-info devicon-react-original-wordmark"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <i class="devicon-javascript-plain"></i>
+              <div id="icon-1" class="row row-icon ">
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <i class=" devicon-angularjs-plain-wordmark"></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <i class=" devicon-github-plain-wordmark"></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <i class=" devicon-bootstrap-plain-wordmark "></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                   <i class=" devicon-css3-plain-wordmark"></i>
+                </div>
+              </div>
+              <div id="icon-2" class="row row-icon">
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <i class=" devicon-jquery-plain-wordmark"></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                   <i class=" devicon-react-original-wordmark"></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <i class=" devicon-javascript-plain"></i>
 
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                         <i class="icon-info devicon-sass-original"></i>
-                      </div>
-                    </div>
-                    <div id="icon-3" class="row row-icon ">
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                      <i class="devicon-git-plain"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                          <i class="devicon-html5-plain"></i>
-                      </div>
-                      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                      <i class="devicon-nodejs-plain"></i>
-                      </div>
-
-                    </div>
-
-
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                   <i class=" devicon-sass-original"></i>
+                </div>
+              </div>
+              <div id="icon-3" class="row row-icon ">
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <i class=" devicon-git-plain"></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <i class=" devicon-html5-plain"></i>
+                </div>
+                <div class="icon-info col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <i class=" devicon-nodejs-plain"></i>
+                </div>
+              </div>
             </div>
         </div>
         <div class="col-about col-md-6 col-lg-6">
@@ -244,14 +192,20 @@
   </section>
   <section  class="class-default cv ">
     <div class="container">
-      <div class="row" >
-        <div id="cv" class="col-xs-12	col-sm-12 col-md-12 col-lg-12 ">
-          <h2>Curriculum Vitae</h2>
+      <div class="row " >
+        <div   id="cv" class="col-xs-12	col-sm-12 col-md-12 col-lg-12 ">
+          <!-- <object id="cv" type="application/pdf" data="./assets/CV-DEV.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1" width="100%" height="100%">
+            <param name="src" value="slax.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1" />
+            <p style="text-align:center; width: 60%;">Adobe Reader no se encuentra o la versión no es compatible,
+            utiliza el icono para ir a la página de descarga <br />
+            <a href="http://get.adobe.com/es/reader/" onclick="this.target='_blank'">
+            <img src="reader_icon_special.jpg" alt="Descargar Adobe Reader"
+            width="32" height="32" style="border: none;" /></a></p>
+          </object> -->
           <embed type="" src="./assets/CV-DEV.pdf" width="100%" height="100%">
         </div>
       </div>
     </div>
-
   </section>
   <section id="about-me" class=" class-default ">
     <div class="container about-me">
@@ -289,15 +243,18 @@
 
           </div>
         </div>
-
       </div>
-
     </div>
 
 </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="./assets/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript" src="lib/modernizr.custom.js"></script>
+	<script type="text/javascript" src="src/jquery.responsiveGallery.js"></script>
   <script src="./assets/js/jquery.ripples-min.js" type="text/javascript"></script>
+  <script src="./assets/js/slider.js" type="text/javascript"></script>
+  <script src="./assets/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  </script>
 </body>
 </html>

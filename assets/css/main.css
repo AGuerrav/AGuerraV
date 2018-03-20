@@ -7,7 +7,7 @@ $fontName: 'Italianno', cursive; */
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   box-sizing: border-box;
 }
@@ -36,9 +36,7 @@ html, body {
   max-width: 500px;
   margin: 0 auto;
 }
-/* h1 {
-}
-*/
+
 h2 {
   color: #B6F7D2;
 }
@@ -49,6 +47,7 @@ h2 {
   color: White;
   font-family: 'Cinzel';
   font-size: 8em;
+  text-shadow: 2px 2px 5px black;
 
 }
 .back-deg h2{
@@ -98,9 +97,9 @@ h2 {
   font-weight: bold;
 }
 
-section {
+/* section {
   overflow: hidden;
-}
+} */
 
 
 .col-about {
@@ -131,79 +130,23 @@ section {
 
 }
 #cv{
-  height: 100vh;
-}
+  height: 80vh;
 
+}
+#cv embed{
+  display: inline-block;
+}
 img {
      width: 100%;
 	}
 
-.carousel-inner {
-  margin: 5%;
-      background-color: rgba(46,53,61,0.7);
-      color: #B6F7D2;
-}
-
-.carousel-caption {
-      /* font-size: 2em;
-      right: 10%;
-      left: 60%;
-      top: 30%;
-      bottom: 30%; */
-      /* text-align: left;
-      text-shadow: none; */
-     }
-.carousel-indicators{
-      font-size: 2em;
-      /* bottom: -1%; */
-      text-align: left;
-      text-shadow: none;
-  }
-
-  /***
-   * Bootstrap relies on CSS transitions for animation, which makes it
-   * easy to override.  Just add the vertical class to your carousel:
-   * <div class='carousel vertical'>...</div>
-   ***/
-
-  .carousel.vertical .carousel-inner {
-    height: 100%;
-  }
-  .carousel.vertical .item {
-    -webkit-transition: 0.6s ease-in-out top;
-    -moz-transition:    0.6s ease-in-out top;
-    -ms-transition:     0.6s ease-in-out top;
-    -o-transition:      0.6s ease-in-out top;
-    left:               0;
-  }
-  .carousel.vertical .active,
-  .carousel.vertical .next.left,
-  .carousel.vertical .prev.right    { top:     0; }
-  .carousel.vertical .next,
-  .carousel.vertical .active.right  { top:  100%; }
-  .carousel.vertical .prev,
-  .carousel.vertical .active.left   { top: -100%; }
-
-.gato{
-  padding-top: 10%;
-
-}
 #uno{
     background-image: url(../img/Proyectos/trello.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 }
-.miau{
-  height: 50%;
-}
-.perro{
-  height: 80vh;
-}
-.ele{
-  display: inline;
-  vertical-align: middle;
-}
+
 .class-default{
   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://scontent.fscl13-1.fna.fbcdn.net/v/t1.0-9/29102076_1714522578593296_9182740860255600640_n.jpg?oh=eac7f5f1a2d20f8719e98b412abb9773&oe=5B054AD6) no-repeat;
   background-size: cover;
@@ -211,13 +154,10 @@ img {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
-  padding: 0 0 5% 5%;
+  padding: 9% 0 5% 5%;
   height: 100%;
 }
-/* .gato{
-  overflow: auto;
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://thumbs.dreamstime.com/b/ci%C3%A9rrese-para-arriba-de-piedras-mojadas-del-r%C3%ADo-44549779.jpg) no-repeat;
-} */
+
 header.navbar+nav.navbar {
   /* margin-top: 20px;same margin-bottom .navbar */
 }
@@ -237,11 +177,13 @@ header.navbar+nav.navbar {
   .sidebar.navbar-fixed-top {
     margin-top: 150px;
   }
-  .class-default{
-    height: auto;
-  }
+
   .icon-but{
   width: 45% !important;
+  }
+  .top{
+    padding: 9% 0 7% 0;
+
   }
 
 }
@@ -411,6 +353,9 @@ nav.sidebar, .main {
     .forAnimate {
       opacity: 0;
     }
+    .dos{
+      padding-bottom: 5%!important;
+    }
   }
 
   /* .....NavBar: Fully showing nav bar..... */
@@ -578,11 +523,12 @@ color: #B6F7D2;
     padding-left: 20px;
     line-height: 50px !important;
   }
-  .class-default{
-    height: auto;
-  }
+
   .icon-but{
   width: 45% !important;
+  }
+  .dos{
+    padding-bottom: 10%!important;
   }
 
 }
@@ -592,15 +538,15 @@ color: #B6F7D2;
   }
 }
 .about-me{
-  margin-top: 10%;
   background-color: rgba(46,53,61,0.7);
   width: 90%;
-  /* color: white;
-  margin: 30px;
-    background-color: #2E353D;
-    border: 1px solid black;
-    opacity: 0.6; */
-    /* filter: alpha(opacity=60); */
+
+
+
+}
+.top{
+  padding: 3% 0 2% 0 !important;
+  margin-bottom: 4% !important;
 
 }
 .ability{
@@ -627,16 +573,14 @@ color: #B6F7D2;
   color: #23282e;
   text-decoration: none;
 }
-.border2{
-  width: 80%;
-    border-bottom: 5px solid #d19b3d;
-    border-left: 5px solid #d19b3d;
-    padding: 5%;
-}
+
 .border{
-  width: 27%;
-    border-bottom: 5px solid #d19b3d;
-    border-left: 5px solid #d19b3d;
+  width: 48%;
+  border-bottom: 5px solid #d19b3d;
+  border-left: 5px solid #d19b3d;
+  padding: 2% ;
+  font-size: 2em;
+  margin: 0;
 }
 .icon-rotate{
     font-size: 2em;
@@ -657,4 +601,51 @@ width: 48%;
 .fa-lg{
   float: right;
   padding-top: 5%;
+}
+button a{
+  text-decoration: none;
+}
+
+.row-icon {
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.drop {
+  animation: drop 1.2s forwards;
+}
+@keyframes drop {
+  0% {
+    transform-origin: center;
+    opacity: 1;
+  }
+  20% {
+    transform:
+      translate3d(0, 20px, 0)
+      rotate3d(0, 0, 1, -10deg);
+    opacity: 1;
+  }
+  40%, 45% {
+    transform:
+      translate3d(0, -120px, 0)
+      rotate3d(0, 0, 1, 10deg);
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform:
+      translate3d(0, 2000px, 0)
+      rotate3d(0, 0, 1, 10deg);
+  }
 }
