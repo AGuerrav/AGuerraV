@@ -7,100 +7,52 @@ $fontName: 'Italianno', cursive; */
 html, body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   box-sizing: border-box;
 }
-
-.intro {
-  width: 100%;
-  height: 100%;
-  margin: auto;
+#home{
   background-image: url(https://scontent.fscl13-1.fna.fbcdn.net/v/t1.0-9/29102076_1714522578593296_9182740860255600640_n.jpg?oh=eac7f5f1a2d20f8719e98b412abb9773&oe=5B054AD6);
-
   display: table;
-  top: 0;
+  height: 100%;
+  width: 100%;
   background-size: cover;
-
 }
-
-.inner {
+.content{
   display: table-cell;
   vertical-align: middle;
-  width: 100%;
-  max-width: none;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+  text-align: center;
+
 }
 
-.content {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-h2 {
+h3 {
+  font-size: 210%!important;
+  font-weight: 500;
+  font-family: 'Cardo', serif;
   color: #B6F7D2;
-}
-
-.back-deg{
-}
-.back-deg h1{
-  color: White;
-  font-family: 'Cinzel';
-  font-size: 8em;
   text-shadow: 2px 2px 5px black;
+}
+h1{
+  color: White;
+  font-family: 'Allura', cursive;
+  font-size: 800% !important;
+  line-height: 1.2;
+  text-shadow: 5px 5px 8px black;
+}
+h2{
+  font-family: 'Allura', cursive;
+  color: #B6F7D2;
+  font-size: 150%!important;
 
 }
-.back-deg h2{
-  color: 1px solid #B6F7D2;;
+.backColor{
+  background-color: rgba(46, 53, 61, 0.7);
+  width: 90%;
 
-  font-family: 'Cinzel';
-  font-size: 2em;
+  margin-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 3%;
 }
-.button-about {
-  float: right;
-  padding: 2% 3%;
-  /* background: linear-gradient(-90deg, #FE4040, #FFFC4D); */
-  font-size: 1em;
-  padding: 1 0%;
-  background-color: #d19b3d;
-  color: #23282e;
-  border-radius: 5%;
-  border: black;
-  margin: 1%;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  border: solid 1px #FFFC4D;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: inset 0 1px 0 rgba(#ffffff, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.button-about:hover, .button-about:focus {
-  background: linear-gradient(90deg, #FE4040, #FFFC4D);
-  border: solid 1px #FE4040;
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav {
-  background-color: transparent;
-  font-family: 'Italianno', cursive;
-  font-size: 1.5em;
-  margin: 0;
-  border: 2px solid transparent;
-}
-
-.brand {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-/* section {
-  overflow: hidden;
-} */
-
 
 .col-about {
   padding: 1% 5% 2%;
@@ -140,12 +92,6 @@ img {
      width: 100%;
 	}
 
-#uno{
-    background-image: url(../img/Proyectos/trello.jpg);
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-}
 
 .class-default{
   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://scontent.fscl13-1.fna.fbcdn.net/v/t1.0-9/29102076_1714522578593296_9182740860255600640_n.jpg?oh=eac7f5f1a2d20f8719e98b412abb9773&oe=5B054AD6) no-repeat;
@@ -154,8 +100,8 @@ img {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
-  padding: 9% 0 5% 5%;
-  height: 100%;
+  padding: 5% 0 5% 5%;
+  height: 100vh;
 }
 
 header.navbar+nav.navbar {
@@ -530,22 +476,39 @@ color: #B6F7D2;
   .dos{
     padding-bottom: 10%!important;
   }
+  h3 {
+    font-size: 150%!important;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+    color: #B6F7D2;
+  }
+  h1{
+    color: White;
+    font-family: 'Cinzel', serif;
+    font-size: 350% !important;
+    line-height: 0.9;
+    text-shadow: 2px 2px 5px black;
+  }
+  .button {
+  /* layout */
+  	padding: 				.3em .4em .2em .4em !important;
+  	margin: 				.3em;
+  }
+
 
 }
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
+  .class-default{
+    padding-top: 10%;
+  }
 }
-.about-me{
-  background-color: rgba(46,53,61,0.7);
-  width: 90%;
 
 
-
-}
 .top{
-  padding: 3% 0 2% 0 !important;
+  padding: 2% 0 2% 0 !important;
   margin-bottom: 4% !important;
 
 }
@@ -559,26 +522,21 @@ color: #B6F7D2;
   color : #b6f7d2;
 }
 .icon-but{
-  font-size: 1em;
-  padding: 1 0%;
-  background-color: #d19b3d;
-  color: #b6f7d2;
-  border-radius: 5%;
-  border: black;
-  margin: 1%;
-  text-align: center;
+
+    text-align: center;
 
 }
 .icon-but a{
   color: #23282e;
   text-decoration: none;
+  font-size: 0.7em;
+
 }
 
 .border{
   width: 48%;
   border-bottom: 5px solid #d19b3d;
   border-left: 5px solid #d19b3d;
-  padding: 2% ;
   font-size: 2em;
   margin: 0;
 }
@@ -596,7 +554,7 @@ color: #B6F7D2;
     transform: rotateZ(720deg);
   }
 .icon-but{
-width: 48%;
+width: 43%;
 }
 .fa-lg{
   float: right;
@@ -648,4 +606,193 @@ button a{
       translate3d(0, 2000px, 0)
       rotate3d(0, 0, 1, 10deg);
   }
+}
+/* ------------------------------------------------ */
+
+.button {
+
+/* text */
+	text-decoration: 		none;
+
+	text-shadow: 			rgba(255,255,255,.5) 0 1px 0;
+	-webkit-user-select: 	none;
+	-moz-user-select: 		none;
+	user-select: 			none;
+
+
+/* layout */
+	padding: 				.5em .6em .4em .6em;
+	margin: 				1em;
+	display: 				inline-block;
+	position: 				relative;
+
+	-webkit-border-radius: 	8px;
+	-moz-border-radius: 	8px;
+	border-radius: 	8px;
+
+/* effects */
+	border-top: 		1px solid rgba(255,255,255,0.8);
+	border-bottom: 		1px solid rgba(0,0,0,0.1);
+
+	background-image: 	-webkit-gradient(radial, 30% 0, 100, 1000% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) ));
+	background-image: 	-moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%);
+	background-image: 	gradient(radial, 30% 0, 100, 1000% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) ));
+
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: 	background .2s ease-in-out;
+	transition: 		background .2s ease-in-out;
+
+/* color */
+	color: 				hsl(0, 0%, 40%) !important;
+	background-color: 	hsl(0, 0%, 75%);
+
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+						hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */
+						rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+
+}
+.button a{
+  /* font: 					24px/1em 'Droid Sans', sans-serif; */
+	font-weight: 900 !important;
+}
+/* -------------- icon -------------- */
+.button:before {
+	font: 			1.2em/0 'Pictos', sans-serif;
+	content: 		attr(data-icon); /* gets the icon value from the custom data attribute and puts it infront of the button label */
+	margin-right: 	0.4em;
+
+}
+.button.orange {
+	/* color: 				hsl(39, 100%, 30%) !important; */
+  /* font-size: bold !important; */
+	background-color: 	hsl(39, 100%, 50%);
+
+	-webkit-box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+							hsl(39, 100%, 40%) 0 .1em 3px, hsl(39, 100%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+							hsl(39, 100%, 40%) 0 .1em 3px, hsl(39, 100%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+	box-shadow:		 	inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */
+							hsl(39, 100%, 40%) 0 .1em 3px, hsl(39, 100%, 30%) 0 .3em 1px, /* color border */
+							rgba(0,0,0,0.2) 0 .5em 5px; /* drop shadow */
+}
+.button.orange:hover { 	background-color: hsl(39, 100%, 65%); }
+
+/* -------------- States -------------- */
+
+.button:hover {
+	background-color: 	hsl(0, 0%, 83%);
+  text-decoration: none;
+}
+
+
+
+.button:active {
+	background-image: 	-webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) ));
+	background-image: 	-moz-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) ));
+	background-image: 	gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) ));
+
+	-webkit-box-shadow: inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	-moz-box-shadow: 	inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+	box-shadow: 		inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */
+							rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+							rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+
+	-webkit-transform: 	translateY(.2em);
+	-moz-transform: 	translateY(.2em);
+	transform: 			translateY(.2em);
+}
+
+.button:focus {
+	color: rgba(254,255,255,0.9) !important;
+	text-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+
+
+/* -------------- Fonts -------------- */
+
+.serif {
+	font-family: 'Lobster', serif;
+	font-weight: 			bold;
+  font-size: 1.4em;
+}
+
+.button.glossy:after, .button.glass:after {
+	content: 	"";
+	position: 	absolute;
+    width: 		90%;
+    height: 	60%;
+    top: 		0;
+    left: 		5%;
+
+    -webkit-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;
+    -moz-border-radius: 	.5em .5em 1em 1em / .5em .5em 2em 2em;
+    border-radius: 			.5em .5em 1em 1em / .5em .5em 2em 2em;
+
+    background-image: 		-webkit-gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );
+    background-image: 		-moz-linear-gradient(left, rgba(255,255,255,.55), rgba(255,255,255,0) 50%, rgba(255,255,255,0) 80%, rgba(255,255,255,.5) );
+    background-image: 		gradient(linear, 0% 0, 100% 0, from( rgba(255,255,255,.55) ), to( rgba(255,255,255,.5) ),
+    							color-stop(.5, rgba(255,255,255,0)), color-stop(.8, rgba(255,255,255,0)) );
+}
+.button.glossy:active:after,
+.button.glass:active:after,
+.button.icon.glossy:after,
+.button.icon.glass:after { height: 75% ; }
+
+/* -------------- Glass + Transparent -------------- */
+.button.glass {
+	text-shadow: rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,0.18) 0 .18em .15em;
+}
+.button.glass:active {
+	text-shadow: rgba(255,255,255,.3) 0 1px 0, rgba(0,0,0,0.15) 0 .18em .15em;
+}
+
+
+/* -------------- Shapes -------------- */
+
+.skew {
+	border-top: 			none;
+	padding-right: 			1.2em;
+	padding-left: 			0.8em;
+	-webkit-border-radius: 	5em 1em / 5em 1em;
+	-moz-border-radius: 	5em 1em / 5em 1em;
+	border-radius: 			5em 1em / 5em 1em;
+}
+.skew.glossy:after, .skew.glass:after {
+	left: 10%;
+	-webkit-border-radius: 	7em 1em / 5em 1em;
+	-moz-border-radius: 	7em 1em / 5em 1em;
+	border-radius: 			7em 1em / 5em 1em;
+}
+.skew.icon {
+	padding-right: 			.9em;
+	padding-left: 			.8em;
+}
+
+/* shield */
+.shield, .shield.glossy:after, .shield.glass:after {
+	-webkit-border-radius: 	.4em .4em 2em 2em / .4em .4em 3em 3em;
+	-moz-border-radius: 	.4em .4em 2em 2em / .4em .4em 3em 3em;
+	border-radius: 			.4em .4em 2em 2em / .4em .4em 3em 3em;
+}
+.shield {
+	padding-left: 	.8em;
+	padding-right: 	.8em;
+}
+.shield.icon {
+	padding-left: 	.6em;
+	padding-right: 	.6em;
 }
